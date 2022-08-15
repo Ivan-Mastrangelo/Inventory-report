@@ -11,4 +11,3 @@ class CsvImporter(Importer):
             return file_reader
         else:
             raise ValueError("Arquivo inválido")
-
