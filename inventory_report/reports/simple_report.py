@@ -46,7 +46,6 @@ class SimpleReport:
 
         for product in products:
             if product["data_de_validade"] != "":
-                # data_de_validade.add(product["data_de_validade"])
                 data = product["data_de_validade"].split("-")
                 data_de_validade.add(
                     date(int(data[0]), int(data[1]), int(data[2]))
